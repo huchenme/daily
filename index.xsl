@@ -44,11 +44,9 @@
   </xsl:template>
 
   <xsl:template match="tag">
-    <ul class="tags">
-      <li>
-        <xsl:value-of select="."/>
-      </li>
-    </ul>
+    <div class="tag">
+      <xsl:value-of select="."/>
+    </div>
   </xsl:template>
 
   <xsl:template match="references">
