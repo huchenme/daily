@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
-  <event date="2015-11-25" primary="true">
-    <action>OTP design principles</action>
-    <tags>
-      <tag name="erlang"/>
-      <tag name="redux"/>
-    </tags>
+  <event date="2015-11-26" primary="true">
+    <action>First entry to use activity log</action>
+    <tag>exploring</tag>
     <references>
-      <reference src="http://www.erlang.org/doc/design_principles/des_princ.html" type="source"></reference>
-    </references>
-  </event>
-  <event date="2015-11-25">
-    <action type="reading">An Erlang application</action>
-    <references>
-      <reference src="http://www.erlang.org/doc/man/application.html" type="source"></reference>
-      <reference src="notes/an-erlang-application.md" type="notes"></reference>
+      <reference src="https://github.com/joebew42/daily-activity-log" type="source"></reference>
     </references>
   </event>
 </events>

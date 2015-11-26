@@ -77,12 +77,12 @@ a,a:visited{
   float: right;
 }
 
-.tags li {
+.tag {
   padding: 0em .5em;
   border-radius: 15px;
   border: 1px solid #df2e2e;
 }
-.tags li:before {
+.tag:before {
   display: inline-block;
   content: '#';
 }

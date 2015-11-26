@@ -26,16 +26,14 @@
   <xsl:template match="event">
     <li>
       <time>
-        <xsl:if test="@primary">
-          <xsl:attribute name="datetime">
-            <xsl:value-of select="@date"/>
-          </xsl:attribute>
+        <xsl:attribute name="datetime">
           <xsl:value-of select="@date"/>
-        </xsl:if>
+        </xsl:attribute>
+        <xsl:value-of select="@date"/>
       </time>
       <xsl:apply-templates select="action"/>
       <div class="attachments">
-        <xsl:apply-templates select="tags"/>
+        <xsl:apply-templates select="tag"/>
         <xsl:apply-templates select="references"/>
       </div>
     </li>
@@ -45,16 +43,12 @@
     <h3 class="action"><xsl:value-of select="."/></h3>
   </xsl:template>
 
-  <xsl:template match="tags">
-    <ul class="tags">
-      <xsl:apply-templates select="tag"/>
-    </ul>
-  </xsl:template>
-
   <xsl:template match="tag">
-    <li>
-      <xsl:value-of select="@name"/>
-    </li>
+    <ul class="tags">
+      <li>
+        <xsl:value-of select="."/>
+      </li>
+    </ul>
   </xsl:template>
 
   <xsl:template match="references">
