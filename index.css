@@ -74,13 +74,14 @@ a,a:visited{
 }
 
 .events li .attachments .references {
-  float: right;
+  text-align: right;
 }
 
 .tag {
   padding: 0em .5em;
   border-radius: 15px;
   border: 1px solid #df2e2e;
+  display: inline-block;
 }
 .tag:before {
   display: inline-block;
