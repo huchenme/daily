@@ -74,7 +74,7 @@ a,a:visited{
 }
 
 .events li .attachments .references {
-  text-align: right;
+  margin-left: 1em;
 }
 
 .tag {
@@ -93,7 +93,12 @@ a,a:visited{
     display: block;
   }
 
-  .events li .attachments .references {
-    float: none;
+  .events li .attachments {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    margin-top: 0.5em;
   }
 }
