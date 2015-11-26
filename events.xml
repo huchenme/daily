@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="events.xsl"?>
 <events>
   <event date="2015-11-25" primary="true">
-    <action type="bookmarking">OTP design principles</action>
+    <action>OTP design principles</action>
     <tags>
       <tag name="erlang"/>
     </tags>
@@ -12,12 +12,9 @@
   </event>
   <event date="2015-11-25">
     <action type="reading">An Erlang application</action>
-    <tags>
-      <tag name="erlang"/>
-    </tags>
     <references>
       <reference src="http://www.erlang.org/doc/man/application.html" type="source"></reference>
-      <reference src="notes/an-erlang-application.txt" type="notes"></reference>
+      <reference src="notes/an-erlang-application.md" type="notes"></reference>
     </references>
   </event>
 </events>
