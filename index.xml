@@ -8,4 +8,12 @@
       <reference src="https://github.com/joebew42/daily-activity-log" type="source"></reference>
     </references>
   </event>
+  <event date="2015-11-29" primary="true">
+    <action>Received kayak 1 star certificate</action>
+    <tag>outdoor</tag>
+  </event>
+  <event date="2015-11-30" primary="true">
+    <action>Started on my first iOS app, yeah!</action>
+    <tag>iOS</tag>
+  </event>
 </events>
